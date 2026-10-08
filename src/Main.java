@@ -93,6 +93,9 @@ public class Main {
         listaMaterias.insertarAlFinal("BasesDeDatos");
         listaMaterias.insertarAlInicio("Docente_Luiggi");
         listaMaterias.mostrarLista();
+        System.out.println("\n>>> PASO 7: Prueba de Búsqueda");
+ listaMaterias.buscar("EDA");
+  listaMaterias.buscar("Matemáticas");
         System.out.println();
 
         System.out.println("=======================================================================");
